@@ -12,7 +12,7 @@ Included in this project are:
 
 Here is some sample output:
 
-	\[gmesser@vpcf1m ~/Code/pgm-github/lsp\]$ ls -l
+	[gmesser@vpcf1m ~/Code/pgm-github/lsp]$ ls -l
 	total 28
 	-rwxr-xr-x 1 gmesser users  228 Jun 14 12:06 findlsp
 	-rw-r--r-- 1 gmesser users 1055 Jun 13 12:26 license.txt
@@ -20,7 +20,7 @@ Here is some sample output:
 	-rwxr-xr-x 1 gmesser users 3067 Jun 14 12:27 lsp.awk
 	-rw-r--r-- 1 gmesser users 4880 Jun 14 12:27 README.md
 	-rwxr-xr-x 1 gmesser users  183 Jun 14 12:06 statlsp
-	\[gmesser@vpcf1m ~/Code/pgm-github/lsp\]$ lsp
+	[gmesser@vpcf1m ~/Code/pgm-github/lsp]$ lsp
 	total 28
 	755 -rwxr-xr-x 1 gmesser users  228 Jun 14 12:06 findlsp
 	644 -rw-r--r-- 1 gmesser users 1055 Jun 13 12:26 license.txt
@@ -28,7 +28,7 @@ Here is some sample output:
 	755 -rwxr-xr-x 1 gmesser users 3067 Jun 14 12:27 lsp.awk
 	644 -rw-r--r-- 1 gmesser users 4880 Jun 14 12:27 README.md
 	755 -rwxr-xr-x 1 gmesser users  183 Jun 14 12:06 statlsp
-	\[gmesser@vpcf1m ~/Code/pgm-github/lsp\]$ ls -l | lsp.awk
+	[gmesser@vpcf1m ~/Code/pgm-github/lsp]$ ls -l | lsp.awk
 	total 28
 	755 -rwxr-xr-x 1 gmesser users  228 Jun 14 12:06 findlsp
 	644 -rw-r--r-- 1 gmesser users 1055 Jun 13 12:26 license.txt
@@ -36,14 +36,14 @@ Here is some sample output:
 	755 -rwxr-xr-x 1 gmesser users 3067 Jun 14 12:27 lsp.awk
 	644 -rw-r--r-- 1 gmesser users 4880 Jun 14 12:27 README.md
 	755 -rwxr-xr-x 1 gmesser users  183 Jun 14 12:06 statlsp
-	\[gmesser@vpcf1m ~/Code/pgm-github/lsp\]$ findlsp
+	[gmesser@vpcf1m ~/Code/pgm-github/lsp]$ findlsp
 	755 -rwxr-xr-x	gmesser	users	133	06/14/2015 12:06 lsp
 	755 -rwxr-xr-x	gmesser	users	183	06/14/2015 12:06 statlsp
 	644 -rw-r--r--	gmesser	users	4880	06/14/2015 12:27 README.md
 	644 -rw-r--r--	gmesser	users	1055	06/13/2015 12:26 license.txt
 	755 -rwxr-xr-x	gmesser	users	228	06/14/2015 12:06 findlsp
 	755 -rwxr-xr-x	gmesser	users	3067	06/14/2015 12:27 lsp.awk
-	\[gmesser@vpcf1m ~/Code/pgm-github/lsp\]$ statlsp
+	[gmesser@vpcf1m ~/Code/pgm-github/lsp]$ statlsp
 	755 -rwxr-xr-x	gmesser	users	228	2015-06-14 12:06:22.342356245 -0500 ./findlsp
 	644 -rw-r--r--	gmesser	users	1055	2015-06-13 12:26:55.393167728 -0500 ./license.txt
 	755 -rwxr-xr-x	gmesser	users	133	2015-06-14 12:06:22.362356607 -0500 ./lsp
