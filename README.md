@@ -76,8 +76,7 @@ The `ls` command is probably the most-used command.  It is the command that most
 Replicating the output from `ls` using `find` and/or `stat` takes a lot of effort to research.  The printf-like
 support provided by `find` and `stat` is nice, but the format characters are an odd mix of printf and
 strftime formatting.  It is simpler to just print the permissions and not try to replicate the entire `ls`
-output, but even printing just the octal permissions for one file requires using the weird printf and strftime
-formatting.
+output, but even printing just the octal permissions for one file requires using the weird printf formatting.
 
 I honestly don't think `find` and `stat` provide a "sufficient" alternative to a simple option on the
 well-known `ls` command.  Without scripting it, and without using `find` and `stat` nearly as frequently as
