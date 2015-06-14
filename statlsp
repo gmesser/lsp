@@ -1,0 +1,11 @@
+#!/bin/sh
+
+# Implementation of the functionality of lsp, using the 'stat' command.
+
+if [ -z $1 ]; then
+	args="."
+else
+	args=$@
+fi	
+
+stat $args/* --printf="%a %A\t%U\t%G\t%s\t%y %n\n"

@@ -1,0 +1,11 @@
+#!/bin/sh
+
+# Implementation of the functionality of lsp, using the 'find' command.
+
+if [ -z $1 ]; then
+	args="."
+else
+	args=$@
+fi	
+
+find $@ -mindepth 1 -maxdepth 1 -name '*' -printf "%m %M\t%u\t%g\t%s\t%Am/%Ad/%AY %AH:%AM %f\n"
